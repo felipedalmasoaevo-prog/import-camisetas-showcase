@@ -1,13 +1,10 @@
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground py-12">
+  return <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
-                <span className="text-secondary-foreground font-bold text-xl">IC</span>
-              </div>
+              
               <span className="font-bold text-xl">Import Camisetas</span>
             </div>
             <p className="text-primary-foreground/80">
@@ -19,26 +16,17 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Links Rápidos</h3>
             <ul className="space-y-2 text-primary-foreground/80">
               <li>
-                <button
-                  onClick={() => document.getElementById("produtos")?.scrollIntoView({ behavior: "smooth" })}
-                  className="hover:text-primary-foreground transition-colors"
-                >
+                <button onClick={() => document.getElementById("produtos")?.scrollIntoView({
+                behavior: "smooth"
+              })} className="hover:text-primary-foreground transition-colors">
                   Produtos
                 </button>
               </li>
+              
               <li>
-                <button
-                  onClick={() => document.getElementById("beneficios")?.scrollIntoView({ behavior: "smooth" })}
-                  className="hover:text-primary-foreground transition-colors"
-                >
-                  Por que escolher?
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => document.getElementById("duvidas")?.scrollIntoView({ behavior: "smooth" })}
-                  className="hover:text-primary-foreground transition-colors"
-                >
+                <button onClick={() => document.getElementById("duvidas")?.scrollIntoView({
+                behavior: "smooth"
+              })} className="hover:text-primary-foreground transition-colors">
                   Dúvidas
                 </button>
               </li>
@@ -59,8 +47,6 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} Import Camisetas. Todos os direitos reservados.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
