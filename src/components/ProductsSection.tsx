@@ -97,8 +97,13 @@ const ImageCarousel = ({ images, title }: { images: string[]; title: string }) =
 
 const ProductsSection = () => {
   return (
-    <section id="produtos" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="produtos" className="py-20 section-light relative overflow-hidden">
+      {/* Decorative elements */}
+      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '8s' }} />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/5 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '10s', animationDelay: '2s' }} />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-primary/3 to-secondary/3 rounded-full blur-3xl" />
+      
+      <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
           Nossos <span className="text-secondary">Produtos</span>
         </h2>

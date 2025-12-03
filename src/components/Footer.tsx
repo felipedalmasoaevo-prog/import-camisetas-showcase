@@ -1,6 +1,10 @@
 const Footer = () => {
-  return <footer className="bg-primary text-primary-foreground py-12">
-      <div className="container mx-auto px-4">
+  return <footer className="footer-gradient text-primary-foreground py-12 relative overflow-hidden">
+      {/* Decorative elements */}
+      <div className="absolute top-0 left-1/4 w-48 h-48 bg-secondary/10 rounded-full blur-2xl" />
+      <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-primary-foreground/5 rounded-full blur-2xl" />
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">

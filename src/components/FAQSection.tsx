@@ -30,8 +30,12 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section id="duvidas" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="duvidas" className="py-20 section-light relative overflow-hidden">
+      {/* Decorative elements */}
+      <div className="absolute top-10 right-20 w-80 h-80 bg-secondary/5 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '9s' }} />
+      <div className="absolute bottom-10 left-20 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '7s', animationDelay: '1s' }} />
+      
+      <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
           Dúvidas <span className="text-primary">Frequentes</span>
         </h2>
