@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,9 +17,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">IC</span>
-            </div>
+            <img src={logo} alt="Import Camisetas" className="h-10 w-auto" />
             <span className="font-bold text-xl text-foreground">Import Camisetas</span>
           </div>
 
@@ -29,12 +28,6 @@ const Navigation = () => {
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
               Produtos
-            </button>
-            <button
-              onClick={() => scrollToSection("beneficios")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Por que escolher?
             </button>
             <button
               onClick={() => scrollToSection("duvidas")}
@@ -68,12 +61,6 @@ const Navigation = () => {
               className="text-foreground hover:text-primary transition-colors font-medium text-left"
             >
               Produtos
-            </button>
-            <button
-              onClick={() => scrollToSection("beneficios")}
-              className="text-foreground hover:text-primary transition-colors font-medium text-left"
-            >
-              Por que escolher?
             </button>
             <button
               onClick={() => scrollToSection("duvidas")}
