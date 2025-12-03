@@ -3,8 +3,18 @@ import heroImage from "@/assets/hero-uniforms.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="hero-gradient min-h-screen flex items-center pt-20">
-      <div className="container mx-auto px-4 py-16">
+    <section className="hero-gradient min-h-screen flex items-center pt-20 relative overflow-hidden">
+      {/* Subtle animated background elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '4s' }} />
+        <div className="absolute top-1/2 -left-20 w-72 h-72 bg-secondary/10 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }} />
+        <div className="absolute bottom-20 right-1/4 w-64 h-64 bg-white/5 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '5s', animationDelay: '2s' }} />
+        {/* Subtle geometric shapes */}
+        <div className="absolute top-32 left-1/4 w-2 h-2 bg-white/20 rounded-full" />
+        <div className="absolute top-48 right-1/3 w-3 h-3 bg-secondary/30 rounded-full" />
+        <div className="absolute bottom-40 left-1/3 w-2 h-2 bg-white/15 rounded-full" />
+      </div>
+      <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white animate-fade-in">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
