@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-uniforms.jpg";
+import heroImage from "@/assets/hero-models.png";
 
 const HeroSection = () => {
   return (
@@ -40,11 +40,11 @@ const HeroSection = () => {
               Nossos consultores irão lhe orientar a encontrar o produto ideal para sua finalidade.
             </p>
           </div>
-          <div className="animate-slide-in">
+          <div className="animate-slide-in flex justify-center">
             <img
               src={heroImage}
               alt="Profissionais vestindo uniformes personalizados da Import Camisetas"
-              className="rounded-2xl shadow-2xl w-full h-auto"
+              className="w-full max-w-lg h-auto drop-shadow-2xl"
             />
           </div>
         </div>
