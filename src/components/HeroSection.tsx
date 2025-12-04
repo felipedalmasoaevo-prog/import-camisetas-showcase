@@ -44,7 +44,7 @@ const HeroSection = () => {
             <img
               src={heroImage}
               alt="Profissionais vestindo uniformes personalizados da Import Camisetas"
-              className="w-full max-w-lg h-auto mix-blend-multiply"
+              className="w-full max-w-lg h-auto"
             />
           </div>
         </div>
