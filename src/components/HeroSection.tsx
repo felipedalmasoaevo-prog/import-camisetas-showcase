@@ -41,19 +41,11 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="animate-slide-in flex justify-center">
-            <div className="relative">
-              <img
-                src={heroImage}
-                alt="Profissionais vestindo uniformes personalizados da Import Camisetas"
-                className="w-full max-w-lg h-auto"
-                style={{
-                  maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%), linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%)',
-                  maskComposite: 'intersect',
-                  WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%), linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%)',
-                  WebkitMaskComposite: 'source-in',
-                }}
-              />
-            </div>
+            <img
+              src={heroImage}
+              alt="Profissionais vestindo uniformes personalizados da Import Camisetas"
+              className="w-full max-w-lg h-auto mix-blend-multiply"
+            />
           </div>
         </div>
       </div>
