@@ -2,25 +2,37 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+// Import product images
+import camisaPoloAzul from "@/assets/products/camisa-polo-azul.jpg";
+import camisetaPreta from "@/assets/products/camiseta-preta.jpg";
+import camisetaRosa from "@/assets/products/camiseta-rosa.jpg";
+import camisetaAzulRoyal from "@/assets/products/camiseta-azul-royal.jpg";
+import poloBranca from "@/assets/products/polo-branca.jpg";
+import camisetaAzulMasc from "@/assets/products/camiseta-azul-masc.jpg";
+import poloAzulFem from "@/assets/products/polo-azul-fem.jpg";
+import poloCinza from "@/assets/products/polo-cinza.jpg";
+import poloVerde from "@/assets/products/polo-verde.jpg";
+
 const products = [
   {
     title: "Camisas Personalizadas",
     description: "Camisas de alta qualidade com estampas exclusivas para eventos, promoções e uso casual.",
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&h=400&fit=crop",
+      camisetaPreta,
+      camisetaRosa,
+      camisetaAzulRoyal,
+      camisetaAzulMasc,
     ],
   },
   {
     title: "Uniformes Corporativos",
     description: "Uniformes elegantes e profissionais para empresas, estabelecimentos e equipes de trabalho.",
     images: [
-      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&h=400&fit=crop",
+      camisaPoloAzul,
+      poloBranca,
+      poloAzulFem,
+      poloCinza,
+      poloVerde,
     ],
   },
 ];
