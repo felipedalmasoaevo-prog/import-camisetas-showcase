@@ -1,59 +1,55 @@
-import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-models-transparent.png";
 
-const HeroSection = () => {
+export default function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center pt-20 relative overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-secondary">
-      {/* Decorative background elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-20 -right-20 w-[600px] h-[600px] border border-white/10 rounded-full" />
-        <div className="absolute -top-40 -right-40 w-[800px] h-[800px] border border-white/5 rounded-full" />
-        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/10 to-transparent" />
-        {/* Floating orbs */}
-        <div className="absolute top-1/4 left-[10%] w-32 h-32 bg-secondary/20 rounded-full blur-2xl animate-pulse" style={{ animationDuration: '3s' }} />
-        <div className="absolute bottom-1/4 right-[15%] w-48 h-48 bg-white/10 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '4s', animationDelay: '1s' }} />
-        <div className="absolute top-1/2 right-[30%] w-24 h-24 bg-secondary/15 rounded-full blur-2xl animate-pulse" style={{ animationDuration: '5s', animationDelay: '2s' }} />
-      </div>
-      
-      <div className="container mx-auto px-4 py-16 relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="text-white animate-fade-in">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              Camisetas Personalizadas
-              <span className="block text-secondary-foreground">do Seu Jeito!</span>
-            </h1>
-            <p className="text-xl md:text-2xl mb-4 text-white/90">
-              Qualidade sem igual, entrega super rápida e preço justo para você{" "}
-              <strong>renovar a aparência da sua equipe!</strong>
-            </p>
-            <p className="text-lg mb-8 text-white/80">
-              Clique no botão abaixo para falar conosco!
-            </p>
-            <Button
-              variant="hero"
-              size="lg"
-              className="text-lg px-8 py-6 h-auto"
-              onClick={() => window.open("https://wa.me/5527981194278?text=Olá! Gostaria de fazer um orçamento", "_blank")}
-            >
-              Fazer um orçamento
-            </Button>
-            <p className="mt-6 text-white/70">
-              Nossos consultores irão lhe orientar a encontrar o produto ideal para sua finalidade.
-            </p>
-          </div>
-          
-          {/* People image - direct integration without any container */}
-          <div className="animate-slide-in flex justify-center items-end">
-            <img
-              src={heroImage}
-              alt="Profissionais vestindo uniformes personalizados da Import Camisetas"
-              className="w-full max-w-lg h-auto"
-            />
-          </div>
+    <section
+      className="
+        relative
+        w-full
+        overflow-hidden
+        bg-gradient-to-br
+        from-[#1f3a8a]
+        via-[#355fb3]
+        to-[#0bb37b]
+        py-20
+      "
+    >
+      {/* Pessoas como background integrado */}
+      <div
+        className="absolute inset-y-0 right-0 w-1/2 bg-no-repeat bg-bottom bg-contain pointer-events-none"
+        style={{
+          backgroundImage: `url('${heroImage}')`
+        }}
+      />
+
+      {/* Conteúdo */}
+      <div className="relative z-10 max-w-6xl mx-auto px-8 flex items-center">
+        <div className="w-1/2 text-left">
+          <h1 className="text-5xl font-bold text-white leading-tight mb-6">
+            Camisetas Personalizadas<br />Do Seu Jeito!
+          </h1>
+
+          <p className="text-lg text-white/90 mb-6">
+            Qualidade sem igual, entrega super rápida e preço justo para você
+            renovar a aparência da sua equipe!
+          </p>
+
+          <a
+            href="https://wa.me/5527981194278?text=Olá! Gostaria de fazer um orçamento"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+              inline-block
+              bg-green-600 hover:bg-green-700
+              text-white text-lg font-semibold
+              py-3 px-6 rounded-lg
+              transition
+            "
+          >
+            Fazer um orçamento
+          </a>
         </div>
       </div>
     </section>
   );
-};
-
-export default HeroSection;
+}
