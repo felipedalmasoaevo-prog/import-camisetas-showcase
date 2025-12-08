@@ -42,16 +42,12 @@ const HeroSection = () => {
             </p>
           </div>
           
-          {/* People image integrated into the background */}
-          <div className="animate-slide-in flex justify-center items-end relative">
-            {/* Subtle glow behind people */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-80 h-80 bg-white/10 rounded-full blur-3xl" />
-            </div>
+          {/* People image - direct integration without any container */}
+          <div className="animate-slide-in flex justify-center items-end">
             <img
               src={heroImage}
               alt="Profissionais vestindo uniformes personalizados da Import Camisetas"
-              className="relative z-10 w-full max-w-lg h-auto rounded-lg"
+              className="w-full max-w-lg h-auto"
             />
           </div>
         </div>
