@@ -48,16 +48,16 @@ export default function HeroSection() {
         </div>
 
         {/* Imagens das pessoas */}
-        <div className="w-full md:w-1/2 flex flex-col md:flex-row items-center md:items-end justify-center md:justify-end gap-0 md:gap-0 mt-8 md:mt-0">
+        <div className="w-full md:w-1/2 flex flex-row items-end justify-center md:justify-end">
           <img
             src={heroWoman}
             alt="Mulher vestindo uniforme polo azul"
-            className="w-40 md:w-auto max-w-full h-auto max-h-[250px] md:max-h-[350px] object-contain"
+            className="w-32 md:w-auto max-w-[45%] md:max-w-[200px] h-auto max-h-[200px] md:max-h-[320px] object-contain"
           />
           <img
             src={heroMan}
             alt="Homem vestindo uniforme polo branca"
-            className="w-40 md:w-auto max-w-full h-auto max-h-[250px] md:max-h-[350px] object-contain -mt-4 md:mt-0"
+            className="w-32 md:w-auto max-w-[45%] md:max-w-[200px] h-auto max-h-[200px] md:max-h-[320px] object-contain -ml-4 md:-ml-6"
           />
         </div>
       </div>
