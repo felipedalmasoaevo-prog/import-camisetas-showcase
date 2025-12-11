@@ -14,12 +14,11 @@ export default function HeroSection() {
         py-20
       "
     >
-      {/* Pessoas como background integrado */}
-      <div
-        className="absolute inset-y-0 right-0 w-1/2 bg-no-repeat bg-bottom bg-contain pointer-events-none"
-        style={{
-          backgroundImage: `url('${heroImage}')`
-        }}
+      {/* Pessoas integradas ao fundo */}
+      <img
+        src={heroImage}
+        alt="Profissionais vestindo uniformes"
+        className="absolute right-0 bottom-0 h-full w-auto max-w-[50%] object-contain object-bottom pointer-events-none mix-blend-multiply"
       />
 
       {/* Conteúdo */}
