@@ -14,11 +14,11 @@ export default function HeroSection() {
         py-20
       "
     >
-      {/* Pessoas integradas ao fundo */}
+      {/* Pessoas sobre o fundo */}
       <img
         src={heroImage}
         alt="Profissionais vestindo uniformes"
-        className="absolute right-0 bottom-0 h-full w-auto max-w-[50%] object-contain object-bottom pointer-events-none mix-blend-multiply"
+        className="absolute right-0 bottom-0 h-full w-auto max-w-[50%] object-contain object-bottom pointer-events-none"
       />
 
       {/* Conteúdo */}
