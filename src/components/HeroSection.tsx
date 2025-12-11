@@ -1,4 +1,5 @@
-import heroImage from "@/assets/hero-models-transparent.png";
+import heroWoman from "@/assets/hero-woman.png";
+import heroMan from "@/assets/hero-man.png";
 
 export default function HeroSection() {
   return (
@@ -6,6 +7,7 @@ export default function HeroSection() {
       className="
         relative
         w-full
+        min-h-[500px]
         overflow-hidden
         bg-gradient-to-br
         from-[#1f3a8a]
@@ -14,11 +16,16 @@ export default function HeroSection() {
         py-20
       "
     >
-      {/* Pessoas sobre o fundo */}
+      {/* Pessoas sobre o fundo - sem wrapper, sem efeitos */}
       <img
-        src={heroImage}
-        alt="Profissionais vestindo uniformes"
-        className="absolute right-0 bottom-0 h-full w-auto max-w-[50%] object-contain object-bottom pointer-events-none"
+        src={heroMan}
+        alt="Homem vestindo uniforme polo branca"
+        className="absolute right-0 bottom-0 h-[90%] w-auto object-contain object-bottom pointer-events-none"
+      />
+      <img
+        src={heroWoman}
+        alt="Mulher vestindo uniforme polo azul"
+        className="absolute right-[15%] bottom-0 h-[85%] w-auto object-contain object-bottom pointer-events-none"
       />
 
       {/* Conteúdo */}
