@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
 
+import { useEffect, useState } from "react";
 // Simulando as imagens com placeholders
-const heroWoman = "../assets/hero-man.png";
-const heroMan = "../assets/hero-woman.png";
+const heroWoman = "@/assets/hero-woman.png";
+const heroMan = "@/assets/hero-man.png";
 
 export default function HeroSection() {
   const [frontImage, setFrontImage] = useState('woman');
