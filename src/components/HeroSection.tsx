@@ -5,7 +5,7 @@ const heroWoman = "/src/assets/hero-man.png";
 const heroMan = "/src/assets/hero-woman.png";
 
 export default function HeroSection() {
-  const [frontImage, setFrontImage] = useState('woman'); // 'woman' ou 'man'
+  const [frontImage, setFrontImage] = useState('woman');
   const [autoSwitch, setAutoSwitch] = useState(true);
 
   // Auto-switch a cada 3 segundos
