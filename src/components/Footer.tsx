@@ -40,9 +40,9 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">Contato</h3>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>WhatsApp: (27) 98119-4278</li>
-              <li>Email: contato@importcamisetas.com.br</li>
-              <li>Atendimento: Seg à Sex, 8h às 18h</li>
+              <li>WhatsApp: (27) 99730-5893</li>
+              <li>Email: vendas@importcamisetas.com.br</li>
+              <li>Atendimento: Seg à Sex, 9h às 17h</li>
             </ul>
           </div>
         </div>
