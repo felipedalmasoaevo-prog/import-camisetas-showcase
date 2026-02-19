@@ -109,7 +109,7 @@ export default function HeroSection() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="https://wa.me/5527981194278?text=Olá! Gostaria de fazer um orçamento"
+                href="https://wa.me/5527997305893?text=Olá! Gostaria de fazer um orçamento"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white text-base lg:text-lg font-semibold py-3 px-6 lg:px-8 rounded-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
