@@ -38,7 +38,7 @@ const Navigation = () => {
             <Button
               variant="whatsapp"
               size="lg"
-              onClick={() => window.open("https://wa.me/5527981194278?text=Olá! Gostaria de fazer um orçamento", "_blank")}
+              onClick={() => window.open("https://wa.me/5527997305893?text=Olá! Gostaria de fazer um orçamento", "_blank")}
             >
               Fazer um orçamento
             </Button>
@@ -72,7 +72,7 @@ const Navigation = () => {
               variant="whatsapp"
               size="lg"
               className="w-full"
-              onClick={() => window.open("https://wa.me/5527981194278?text=Olá! Gostaria de fazer um orçamento", "_blank")}
+              onClick={() => window.open("https://wa.me/5527997305893?text=Olá! Gostaria de fazer um orçamento", "_blank")}
             >
               Fazer um orçamento
             </Button>
