@@ -63,7 +63,7 @@ export default function HeroSection() {
               <span className="text-white text-sm font-medium">Entregas Rápidas</span>
             </div>
 
-            <h1 className="text-4xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4 lg:mb-6">
+            <h1 className="inline-block text-white relative text-3xl sm:text-4xl lg:text-4xl xl:text-5xl">
               {/* Linha 1 - com efeito de máquina de escrever */}
               <span className="inline-block text-white relative">
                 Uniformes e Camisetas
