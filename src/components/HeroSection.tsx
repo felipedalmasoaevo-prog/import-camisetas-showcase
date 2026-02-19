@@ -66,7 +66,7 @@ export default function HeroSection() {
             <h1 className="text-4xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4 lg:mb-6">
               {/* Linha 1 - com efeito de máquina de escrever */}
               <span className="inline-block text-white relative">
-                Camisetas
+                Uniformes e Camisetas
                 {/* <span className="absolute -right-1 top-0 w-0.5 h-full bg-green-400 animate-pulse"></span> */}
               </span>
               <br />
@@ -103,7 +103,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-base sm:text-lg text-white/90 mb-6 lg:mb-8 max-w-md mx-auto lg:mx-0">
-              Qualidade sem igual, entrega super rápida e preço justo para você renovar a aparência da sua equipe!
+              + de 27 anos fornecendo uniformes de qualidade para sua empresa.
             </p>
 
             {/* CTAs */}
