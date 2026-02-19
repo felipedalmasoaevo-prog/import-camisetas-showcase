@@ -16,7 +16,7 @@ const CTASection = () => {
             variant="hero"
             size="lg"
             className="text-lg px-8 py-6 h-auto bg-white text-secondary hover:bg-white/90"
-            onClick={() => window.open("https://wa.me/5527981194278?text=Olá! Gostaria de fazer um orçamento", "_blank")}
+            onClick={() => window.open("https://wa.me/5527997305893?text=Olá! Gostaria de fazer um orçamento", "_blank")}
           >
             <MessageCircle className="mr-2" />
             Falar com especialista
