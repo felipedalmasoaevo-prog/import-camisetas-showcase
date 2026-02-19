@@ -136,7 +136,7 @@ const ProductsSection = () => {
                 <p className="text-muted-foreground mb-6">{product.description}</p>
                 <Button
                   className="w-full"
-                  onClick={() => window.open("https://wa.me/5527981194278?text=Olá! Gostaria de saber mais sobre " + product.title, "_blank")}
+                  onClick={() => window.open("https://wa.me/5527997305893?text=Olá! Gostaria de saber mais sobre " + product.title, "_blank")}
                 >
                   Solicitar Orçamento
                 </Button>
