@@ -120,12 +120,6 @@ export default function HeroSection() {
                 Fazer Orçamento
               </a>
               
-              <a
-                href="#catalogo"
-                className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white text-base lg:text-lg font-semibold py-3 px-6 lg:px-8 rounded-lg transition-all border-2 border-white/30"
-              >
-                Ver Catálogo
-              </a>
             </div>
 
             {/* Social proof */}
