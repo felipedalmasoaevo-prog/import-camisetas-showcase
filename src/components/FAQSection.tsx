@@ -8,23 +8,23 @@ import {
 const faqs = [
   {
     question: "Qual o prazo de entrega?",
-    answer: "O prazo varia de acordo com a quantidade e complexidade do pedido, mas geralmente trabalhamos com 7 a 15 dias úteis após aprovação do layout. Para pedidos urgentes, consulte disponibilidade de entrega expressa.",
+    answer: "Para pedidos urgentes, consulte disponibilidade de entrega expressa que giram em torno de 1 a 2 dias úteis. O prazo varia de acordo com a quantidade e complexidade do pedido, mas geralmente trabalhamos com 7 a 15 dias úteis após aprovação do layout.",
   },
   {
     question: "Qual a quantidade mínima de peças?",
-    answer: "Trabalhamos com pedidos a partir de 10 unidades. Quanto maior a quantidade, melhor o preço unitário. Entre em contato para receber uma proposta personalizada.",
+    answer: "Trabalhamos com pedido a partir de 6 peças caso o serviço de personalização for o bordado, para os demais serviços não temos quantidade mínima, fazemos até 1 camisa. Quanto maior a quantidade, melhor o preço unitário. Entre em contato para receber uma proposta personalizada.",
   },
   {
     question: "Como funciona a personalização?",
-    answer: "Você envia sua arte ou ideia, nossa equipe desenvolve o layout para aprovação. Após aprovado, iniciamos a produção. Aceitamos logos, textos, números e designs personalizados.",
+    answer: "Você envia sua arte ou ideia, nossa equipe desenvolve o layout para aprovação. Após aprovado, iniciamos a produção. Aceitamos logos, textos, números e designs personalizados. Trabalhamos com Sublimação DTF, Silk-Screen e bordado.",
   },
   {
     question: "Quais formas de pagamento são aceitas?",
-    answer: "Aceitamos PIX, cartão de crédito, boleto bancário e transferência. Para pedidos maiores, oferecemos condições especiais de parcelamento.",
+    answer: "Aceitamos PIX, cartão de crédito/débito e transferência.",
   },
   {
     question: "Vocês fazem entregas em todo o Brasil?",
-    answer: "Sim! Entregamos para todo o território nacional através de transportadoras parceiras confiáveis. O frete é calculado de acordo com o CEP de destino.",
+    answer: "Sim! Entregamos para todo o território nacional através dos correios. O frete é calculado de acordo com o CEP de destino.",
   },
 ];
 
