@@ -1,6 +1,7 @@
 const CLIENTS = [
   { name: "Nestlé", logo: "/clients/Nestle_textlogo_blue.svg" },
   { name: "Vale", logo: "/clients/ValeLogoUnit.png" },
+  { name: "40 Sabores", logo: "/clients/40sab.png" },
 ];
 
 const ClientsSection = () => {
